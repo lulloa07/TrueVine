@@ -1,0 +1,1277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="True Vine Spellers Academy is a faith-based nonprofit in North Texas using the Spellers Method to unlock the voices and God-given intellect of nonspeaking students. Opening February 2027."/>
+  <meta name="keywords" content="Spellers Method, nonspeaking students, autism education, faith-based school, North Texas, nonverbal autism, AAC, spelling to communicate, True Vine Spellers Academy"/>
+  <meta name="author" content="True Vine Spellers Academy"/>
+  <meta name="robots" content="index, follow"/>
+  <link rel="canonical" href="https://www.truevinespellers.com/"/>
+
+  <!-- Open Graph (Facebook, LinkedIn sharing) -->
+  <meta property="og:type" content="website"/>
+  <meta property="og:url" content="https://www.truevinespellers.com/"/>
+  <meta property="og:title" content="True Vine Spellers Academy — Unlocking Every Voice"/>
+  <meta property="og:description" content="A faith-based nonprofit school in North Texas using the Spellers Method to unlock the voices and God-given intellect of nonspeaking students. Opening February 2027."/>
+  <meta property="og:image" content="https://www.truevinespellers.com/og-image.jpg"/>
+  <meta property="og:site_name" content="True Vine Spellers Academy"/>
+  <meta property="og:locale" content="en_US"/>
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:title" content="True Vine Spellers Academy — Unlocking Every Voice"/>
+  <meta name="twitter:description" content="Faith-based nonprofit in North Texas using the Spellers Method to unlock the voices of nonspeaking students. Opening February 2027."/>
+  <meta name="twitter:image" content="https://www.truevinespellers.com/og-image.jpg"/>
+
+  <!-- Schema.org Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "EducationalOrganization",
+    "name": "True Vine Spellers Academy",
+    "alternateName": "TVSA",
+    "url": "https://www.truevinespellers.com",
+    "logo": "https://www.truevinespellers.com/logo.jpg",
+    "description": "A faith-based nonprofit school in North Texas using the Spellers Method to unlock the voices and God-given intellect of nonspeaking students.",
+    "foundingDate": "2027",
+    "address": {
+      "@type": "PostalAddress",
+      "addressRegion": "TX",
+      "addressLocality": "Celina",
+      "addressCountry": "US",
+      "addressCountry": "US"
+    },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+1-214-233-5366",
+      "email": "info@truevinespellers.com",
+      "contactType": "customer support"
+    },
+    "sameAs": [
+      "https://www.facebook.com/truevinespellersacademy"
+    ],
+    "nonprofit501cType": "501c3",
+    "knowsAbout": ["Spellers Method", "Nonspeaking Autism", "AAC", "Spelling to Communicate", "Faith-Based Education"]
+  }
+  </script>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>True Vine Spellers Academy — Unlocking Every Voice</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,500;1,700&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --forest:   #1B3A2D;
+      --forest-mid: #2A5940;
+      --forest-light: #D6EAE0;
+      --gold:     #C8972A;
+      --gold-light: #F5E9CC;
+      --cream:    #FAF7F2;
+      --parchment:#F0EAD8;
+      --ink:      #141414;
+      --muted:    #6B6B5E;
+      --white:    #FFFFFF;
+    }
+
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Jost', sans-serif;
+      background: var(--cream);
+      color: var(--ink);
+      overflow-x: hidden;
+    }
+
+    ::-webkit-scrollbar { width: 6px; }
+    ::-webkit-scrollbar-track { background: var(--cream); }
+    ::-webkit-scrollbar-thumb { background: var(--forest-mid); border-radius: 3px; }
+
+    /* NAV */
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 200;
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 1.2rem 4rem;
+      background: rgba(250,247,242,0.96);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid rgba(27,58,45,0.1);
+    }
+    .nav-logo { display: flex; align-items: center; gap: 0.8rem; text-decoration: none; }
+    .nav-logo-img { height: 52px; width: auto; object-fit: contain; }
+    .nav-logo-text { display: flex; flex-direction: column; line-height: 1; }
+    .nav-logo-main { font-family: 'Cormorant Garamond', serif; font-size: 1.3rem; font-weight: 700; color: var(--forest); letter-spacing: 0.04em; }
+    .nav-logo-sub { font-size: 0.63rem; font-weight: 500; letter-spacing: 0.18em; text-transform: uppercase; color: var(--gold); margin-top: 2px; }
+    .nav-links { display: flex; gap: 2.2rem; list-style: none; align-items: center; }
+    .nav-links a { text-decoration: none; font-size: 0.85rem; font-weight: 500; color: var(--ink); letter-spacing: 0.07em; text-transform: uppercase; transition: color 0.2s; }
+    .nav-links a:hover { color: var(--forest); }
+    .nav-cta { background: var(--forest) !important; color: var(--white) !important; padding: 0.6rem 1.5rem; border-radius: 2px; }
+    .nav-cta:hover { background: var(--forest-mid) !important; }
+    .hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; z-index: 300; }
+    .hamburger span { width: 24px; height: 2px; background: var(--ink); border-radius: 2px; display: block; transition: all 0.3s; }
+    .hamburger.active span:nth-child(1) { transform: rotate(45deg) translate(5px, 5px); }
+    .hamburger.active span:nth-child(2) { opacity: 0; }
+    .hamburger.active span:nth-child(3) { transform: rotate(-45deg) translate(5px, -5px); }
+
+    .mobile-menu {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 0;
+      position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(250,247,242,0.98);
+      z-index: 250;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.3s;
+    }
+    .mobile-menu.active { opacity: 1; pointer-events: all; }
+    .mobile-menu a {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 2rem; font-weight: 600;
+      color: var(--forest); text-decoration: none;
+      padding: 0.8rem 2rem;
+      letter-spacing: 0.05em;
+      border-bottom: 1px solid rgba(27,58,45,0.08);
+      width: 100%; text-align: center;
+      transition: color 0.2s, background 0.2s;
+    }
+    .mobile-menu a:hover { color: var(--gold); background: var(--forest-light); }
+    .mobile-menu .mobile-cta {
+      background: var(--forest); color: var(--white) !important;
+      margin-top: 1rem; border-radius: 2px;
+      font-size: 1.2rem !important;
+    }
+    .mobile-menu .mobile-cta:hover { background: var(--forest-mid) !important; }
+
+    /* DROPDOWN */
+    .nav-dropdown { position: relative; }
+    .nav-dropdown > a { display: flex; align-items: center; gap: 0.3rem; }
+    .nav-dropdown > a::after {
+      content: '▾'; font-size: 0.7rem; opacity: 0.6; transition: transform 0.2s;
+    }
+    .nav-dropdown:hover > a::after { transform: rotate(180deg); }
+    .dropdown-menu {
+      position: absolute; top: calc(100% + 0.8rem); left: 0;
+      background: var(--white);
+      border: 1px solid rgba(27,58,45,0.1);
+      border-top: 2px solid var(--gold);
+      border-radius: 2px;
+      min-width: 160px;
+      box-shadow: 0 12px 30px rgba(0,0,0,0.1);
+      opacity: 0; visibility: hidden;
+      transform: translateY(-6px);
+      transition: opacity 0.2s, transform 0.2s, visibility 0.2s;
+      z-index: 300;
+    }
+    .nav-dropdown:hover .dropdown-menu {
+      opacity: 1; visibility: visible; transform: translateY(0);
+    }
+    .dropdown-menu li { list-style: none; }
+    .dropdown-menu a {
+      display: block; padding: 0.75rem 1.2rem;
+      font-size: 0.84rem !important; font-weight: 500 !important;
+      color: var(--ink) !important; text-decoration: none;
+      letter-spacing: 0.05em !important;
+      transition: background 0.15s, color 0.15s;
+      text-transform: none !important;
+    }
+    .dropdown-menu a:hover { background: var(--forest-light); color: var(--forest) !important; }
+
+
+    /* HERO */
+    #home {
+      min-height: 100vh;
+      background: var(--forest);
+      display: grid; grid-template-columns: 1fr 1fr;
+      align-items: center;
+      padding: 5rem 4rem 5rem;
+      gap: 4rem;
+      position: relative; overflow: hidden;
+    }
+    .hero-bg-text {
+      position: absolute; right: -40px; top: 50%; transform: translateY(-50%);
+      font-family: 'Cormorant Garamond', serif; font-weight: 700; font-style: italic;
+      font-size: 28vw; color: rgba(255,255,255,0.025);
+      pointer-events: none; white-space: nowrap; line-height: 1; user-select: none;
+    }
+    .hero-gold-bar { position: absolute; left: 0; bottom: 0; right: 0; height: 3px; background: var(--gold); }
+
+    .hero-eyebrow {
+      display: inline-flex; align-items: center; gap: 0.8rem;
+      font-size: 0.72rem; font-weight: 600; letter-spacing: 0.2em; text-transform: uppercase;
+      color: var(--gold); margin-bottom: 1.6rem;
+    }
+    .hero-eyebrow::before, .hero-eyebrow::after { content: ''; width: 24px; height: 1px; background: var(--gold); opacity: 0.6; display: block; }
+
+    .hero-title {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(3rem, 5.5vw, 5rem);
+      font-weight: 300; line-height: 1.08;
+      color: var(--white); margin-bottom: 1.5rem;
+    }
+    .hero-title strong { font-weight: 700; }
+    .hero-title em { font-style: italic; color: var(--gold); }
+
+    .hero-verse {
+      font-family: 'Cormorant Garamond', serif; font-style: italic;
+      font-size: 1.05rem; color: rgba(255,255,255,0.5);
+      padding-left: 1.2rem; border-left: 2px solid var(--gold);
+      line-height: 1.7; margin-bottom: 2.2rem;
+    }
+
+    .hero-btns { display: flex; gap: 1rem; flex-wrap: wrap; margin-bottom: 2.8rem; }
+    .btn-gold {
+      background: var(--gold); color: var(--white);
+      padding: 0.88rem 2.2rem; border-radius: 2px;
+      font-weight: 600; font-size: 0.85rem; text-decoration: none;
+      letter-spacing: 0.1em; text-transform: uppercase;
+      transition: background 0.2s, transform 0.2s;
+    }
+    .btn-gold:hover { background: #b5841f; transform: translateY(-2px); }
+    .btn-outline {
+      background: transparent; color: rgba(255,255,255,0.8);
+      padding: 0.88rem 2.2rem; border-radius: 2px;
+      font-weight: 500; font-size: 0.85rem; text-decoration: none;
+      letter-spacing: 0.1em; text-transform: uppercase;
+      border: 1px solid rgba(255,255,255,0.25);
+      transition: all 0.2s;
+    }
+    .btn-outline:hover { border-color: rgba(255,255,255,0.6); color: var(--white); }
+
+    .hero-tags { display: flex; gap: 1.5rem; flex-wrap: wrap; }
+    .hero-tag { display: flex; align-items: center; gap: 0.5rem; font-size: 0.78rem; color: rgba(255,255,255,0.5); }
+    .hero-tag-dot { width: 5px; height: 5px; border-radius: 50%; background: var(--gold); flex-shrink: 0; }
+
+    .hero-right { display: flex; flex-direction: column; gap: 1.4rem; align-items: flex-end; }
+    .hero-card {
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(200,151,42,0.22);
+      border-radius: 3px; padding: 2rem;
+      width: 100%; max-width: 400px;
+    }
+    .hero-card-label { font-size: 0.68rem; letter-spacing: 0.22em; text-transform: uppercase; color: var(--gold); margin-bottom: 0.8rem; font-weight: 600; }
+    .hero-card h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.55rem; font-weight: 600; color: var(--white); line-height: 1.3; margin-bottom: 0.7rem; }
+    .hero-card p { font-size: 0.86rem; color: rgba(255,255,255,0.55); line-height: 1.7; }
+    .hero-card hr { border: none; border-top: 1px solid rgba(200,151,42,0.18); margin: 1.2rem 0; }
+    .hero-stat-row { display: flex; gap: 2rem; }
+    .hero-stat-num { font-family: 'Cormorant Garamond', serif; font-size: 2.2rem; font-weight: 700; color: var(--gold); line-height: 1; }
+    .hero-stat-label { font-size: 0.73rem; color: rgba(255,255,255,0.45); margin-top: 0.2rem; }
+
+
+    /* HERO LOGO */
+    .hero-logo-img {
+      height: 180px; width: auto; object-fit: contain;
+      margin-bottom: 2rem; display: block;
+      mix-blend-mode: lighten;
+      filter: drop-shadow(0 2px 16px rgba(0,0,0,0.3)) brightness(1.05) contrast(1.1);
+      animation: fadeUp 0.8s ease both;
+      animation-delay: 0.05s;
+    }
+
+    /* HERO IMAGE */
+    .hero-img-wrap {
+      position: relative; width: 100%; max-width: 520px;
+    }
+    .hero-campus-img {
+      width: 100%; border-radius: 8px;
+      box-shadow: 0 30px 80px rgba(0,0,0,0.55);
+      display: block;
+      border: 3px solid rgba(200,151,42,0.4);
+      min-height: 500px;
+      object-fit: cover;
+    }
+    .hero-img-badge {
+      position: absolute; bottom: -14px; left: 20px;
+      background: var(--gold); color: var(--white);
+      padding: 0.6rem 1.2rem; border-radius: 3px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+      display: flex; flex-direction: column; gap: 0.1rem;
+    }
+    .hero-img-badge-label { font-size: 0.8rem; font-weight: 700; letter-spacing: 0.05em; }
+    .hero-img-badge-sub { font-size: 0.68rem; opacity: 0.85; letter-spacing: 0.05em; }
+
+    /* SHARED SECTION */
+    .section-eyebrow {
+      display: inline-flex; align-items: center; gap: 0.6rem;
+      font-size: 0.7rem; font-weight: 600; letter-spacing: 0.22em; text-transform: uppercase;
+      color: var(--gold); margin-bottom: 1rem;
+    }
+    .section-eyebrow::before { content: ''; width: 18px; height: 1px; background: var(--gold); display: block; }
+    .section-title {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(2.1rem, 3.8vw, 3.2rem);
+      font-weight: 400; line-height: 1.15;
+      color: var(--forest); margin-bottom: 1.2rem;
+    }
+    .section-title em { font-style: italic; font-weight: 300; }
+    .section-title strong { font-weight: 700; }
+    .section-desc { font-size: 0.98rem; color: var(--muted); line-height: 1.8; max-width: 580px; }
+
+    /* ABOUT */
+    #about { padding: 7rem 4rem; background: var(--cream); }
+    .about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 5rem; align-items: start; max-width: 1100px; margin: 0 auto; }
+    .about-pillars { margin-top: 2.5rem; display: flex; flex-direction: column; gap: 1rem; }
+    .pillar {
+      display: flex; gap: 1.2rem; align-items: flex-start;
+      padding: 1.2rem 1.4rem; background: var(--white);
+      border-left: 3px solid var(--gold); border-radius: 2px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.04);
+    }
+    .pillar-icon { font-size: 1.4rem; flex-shrink: 0; }
+    .pillar h4 { font-weight: 600; font-size: 0.92rem; color: var(--forest); margin-bottom: 0.22rem; }
+    .pillar p { font-size: 0.84rem; color: var(--muted); line-height: 1.6; }
+
+    .about-verse-block {
+      background: var(--forest); padding: 2.5rem; border-radius: 3px;
+      margin-bottom: 1.5rem; position: relative; overflow: hidden;
+    }
+    .about-verse-block::before {
+      content: '"'; position: absolute; top: -30px; left: 5px;
+      font-family: 'Cormorant Garamond', serif; font-size: 16rem;
+      color: rgba(200,151,42,0.07); line-height: 1; pointer-events: none;
+    }
+    .about-verse-block blockquote {
+      font-family: 'Cormorant Garamond', serif; font-style: italic;
+      font-size: 1.35rem; color: var(--white); line-height: 1.65;
+      margin-bottom: 0.8rem; position: relative;
+    }
+    .about-verse-block cite { font-size: 0.78rem; color: var(--gold); letter-spacing: 0.12em; text-transform: uppercase; font-style: normal; }
+    .about-launch {
+      background: var(--gold-light); border: 1px solid rgba(200,151,42,0.3);
+      padding: 1.4rem; border-radius: 3px;
+    }
+    .about-launch-label { font-size: 0.68rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--gold); font-weight: 600; margin-bottom: 0.4rem; }
+    .about-launch h4 { font-family: 'Cormorant Garamond', serif; font-size: 1.25rem; font-weight: 600; color: var(--forest); }
+    .about-launch p { font-size: 0.86rem; color: var(--muted); margin-top: 0.35rem; line-height: 1.6; }
+
+    /* VISION */
+    #vision { background: var(--forest); padding: 7rem 4rem; position: relative; overflow: hidden; }
+    #vision::after {
+      content: 'VISION'; position: absolute; right: -80px; top: 50%; transform: translateY(-50%);
+      font-family: 'Cormorant Garamond', serif; font-size: 22vw; font-weight: 700;
+      color: rgba(255,255,255,0.025); pointer-events: none; white-space: nowrap;
+    }
+    .vision-inner { max-width: 900px; margin: 0 auto; position: relative; }
+    #vision .section-title { color: var(--white); }
+    .vision-statement {
+      font-family: 'Cormorant Garamond', serif; font-style: italic;
+      font-size: clamp(1.3rem, 2.5vw, 1.85rem);
+      font-weight: 300; color: rgba(255,255,255,0.8);
+      line-height: 1.65; margin: 2rem 0 3rem;
+      padding-left: 2rem; border-left: 2px solid var(--gold);
+    }
+    .vision-pillars { display: grid; grid-template-columns: repeat(3,1fr); gap: 1.4rem; }
+    .vision-pillar {
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(200,151,42,0.18);
+      border-top: 3px solid var(--gold);
+      padding: 1.8rem; border-radius: 2px;
+    }
+    .vision-pillar-num { font-family: 'Cormorant Garamond', serif; font-size: 2.4rem; font-weight: 700; color: rgba(200,151,42,0.28); line-height: 1; margin-bottom: 0.8rem; }
+    .vision-pillar h4 { font-size: 0.78rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--gold); font-weight: 600; margin-bottom: 0.5rem; }
+    .vision-pillar p { font-size: 0.86rem; color: rgba(255,255,255,0.55); line-height: 1.65; }
+
+    /* PROGRAMS */
+    #programs { padding: 7rem 4rem; background: var(--parchment); }
+    .programs-header { margin-bottom: 3.5rem; }
+    .programs-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 1.3rem; max-width: 1100px; }
+    .program-card {
+      background: var(--white); padding: 1.8rem; border-radius: 2px;
+      border-bottom: 3px solid transparent;
+      transition: border-color 0.25s, transform 0.25s, box-shadow 0.25s;
+      box-shadow: 0 1px 6px rgba(0,0,0,0.04);
+    }
+    .program-card:hover { border-color: var(--gold); transform: translateY(-4px); box-shadow: 0 12px 28px rgba(0,0,0,0.08); }
+    .program-icon { font-size: 1.7rem; margin-bottom: 1rem; }
+    .program-card h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.15rem; font-weight: 600; color: var(--forest); margin-bottom: 0.5rem; }
+    .program-card p { font-size: 0.84rem; color: var(--muted); line-height: 1.65; }
+
+    /* LAND */
+    #land { padding: 7rem 4rem; background: var(--cream); }
+    .land-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 5rem; align-items: center; max-width: 1100px; margin: 0 auto; }
+    .land-visual {
+      background: var(--forest); border-radius: 3px; padding: 3rem;
+      position: relative; overflow: hidden; min-height: 400px;
+      display: flex; flex-direction: column; justify-content: flex-end;
+    }
+    .land-visual::before {
+      content: '14'; position: absolute; top: -40px; right: -20px;
+      font-family: 'Cormorant Garamond', serif; font-size: 18rem; font-weight: 700;
+      color: rgba(200,151,42,0.07); line-height: 1; pointer-events: none;
+    }
+    .land-visual-label { font-size: 0.68rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--gold); margin-bottom: 0.5rem; font-weight: 600; }
+    .land-visual h3 { font-family: 'Cormorant Garamond', serif; font-size: 2rem; color: var(--white); font-weight: 400; line-height: 1.3; }
+    .land-visual p { font-size: 0.86rem; color: rgba(255,255,255,0.55); margin-top: 0.6rem; line-height: 1.65; }
+    .land-amount { font-family: 'Cormorant Garamond', serif; font-size: 2.8rem; font-weight: 700; color: var(--gold); line-height: 1; margin-top: 1.5rem; }
+    .land-amount span { font-size: 0.95rem; font-weight: 400; color: rgba(255,255,255,0.45); }
+    .land-progress { margin-top: 1rem; }
+    .land-progress-labels { display: flex; justify-content: space-between; font-size: 0.76rem; color: rgba(255,255,255,0.4); margin-bottom: 0.5rem; }
+    .land-bar { height: 4px; background: rgba(255,255,255,0.1); border-radius: 2px; }
+    .land-bar-fill { height: 100%; width: 12%; background: var(--gold); border-radius: 2px; }
+
+    .land-features { display: flex; flex-direction: column; gap: 0.9rem; }
+    .land-feature { display: flex; gap: 1rem; align-items: flex-start; padding: 1rem 1.2rem; background: var(--white); border-radius: 2px; box-shadow: 0 1px 6px rgba(0,0,0,0.04); }
+    .land-feature-icon { color: var(--gold); font-size: 1.2rem; flex-shrink: 0; }
+    .land-feature h4 { font-size: 0.88rem; font-weight: 600; color: var(--forest); margin-bottom: 0.15rem; }
+    .land-feature p { font-size: 0.82rem; color: var(--muted); line-height: 1.55; }
+
+    /* DONATE */
+    #donate { padding: 7rem 4rem; background: var(--gold-light); border-top: 3px solid var(--gold); }
+    .donate-inner { max-width: 700px; margin: 0 auto; text-align: center; }
+    #donate .section-eyebrow { justify-content: center; }
+    #donate .section-title { color: var(--forest); }
+    #donate .section-desc { margin: 0 auto 2.5rem; text-align: center; }
+    .givebutter-wrap { background: var(--white); border-radius: 3px; padding: 2.5rem; box-shadow: 0 16px 40px rgba(27,58,45,0.1); }
+    .givebutter-placeholder { background: var(--forest-light); border-radius: 3px; padding: 3rem 2rem; border: 2px dashed rgba(27,58,45,0.2); }
+    .givebutter-placeholder .gb-icon { font-size: 2.5rem; }
+    .givebutter-placeholder p { color: var(--forest); font-size: 0.9rem; margin-top: 0.5rem; font-weight: 500; }
+    .givebutter-placeholder small { color: var(--muted); font-size: 0.8rem; }
+
+    /* CONTACT */
+    #contact { padding: 7rem 4rem; background: var(--cream); }
+    .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 5rem; max-width: 1000px; margin: 0 auto; align-items: start; }
+    .contact-details { margin-top: 2rem; display: flex; flex-direction: column; gap: 1.1rem; }
+    .contact-item { display: flex; gap: 1rem; align-items: flex-start; }
+    .contact-item-icon { width: 40px; height: 40px; border-radius: 2px; background: var(--forest); color: var(--white); display: flex; align-items: center; justify-content: center; font-size: 1rem; flex-shrink: 0; }
+    .contact-item-label { font-size: 0.68rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); }
+    .contact-item-value { font-size: 0.93rem; color: var(--ink); margin-top: 0.1rem; font-weight: 500; }
+    .contact-item-value a { color: var(--forest); text-decoration: none; }
+    .contact-item-value a:hover { color: var(--gold); }
+    .social-follow { margin-top: 2rem; }
+    .social-follow h4 { font-size: 0.68rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.9rem; font-weight: 600; }
+    .social-links { display: flex; gap: 0.8rem; flex-wrap: wrap; }
+    .social-link {
+      display: inline-flex; align-items: center; gap: 0.6rem;
+      padding: 0.6rem 1.2rem; border-radius: 6px;
+      color: var(--white); text-decoration: none;
+      font-size: 0.85rem; font-weight: 600;
+      transition: transform 0.2s, opacity 0.2s;
+    }
+    .social-link:hover { transform: translateY(-2px); opacity: 0.9; }
+    .social-link.facebook { background: #1877F2; }
+    .social-link.instagram { background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888); }
+    .social-link svg { width: 18px; height: 18px; fill: white; flex-shrink: 0; }
+
+    .contact-form { display: flex; flex-direction: column; gap: 1.1rem; }
+    .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+    .form-group { display: flex; flex-direction: column; gap: 0.4rem; }
+    .form-group label { font-size: 0.72rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: var(--forest); }
+    .form-group input, .form-group textarea, .form-group select { padding: 0.8rem 1rem; border-radius: 2px; border: 1px solid rgba(0,0,0,0.12); font-family: 'Jost', sans-serif; font-size: 0.9rem; color: var(--ink); background: var(--white); outline: none; transition: border-color 0.2s; }
+    .form-group input:focus, .form-group textarea:focus, .form-group select:focus { border-color: var(--forest); }
+    .form-group textarea { resize: vertical; min-height: 130px; }
+    .btn-submit { background: var(--forest); color: var(--white); padding: 0.9rem 2.2rem; border-radius: 2px; font-family: 'Jost', sans-serif; font-size: 0.85rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; border: none; cursor: pointer; transition: background 0.2s, transform 0.2s; align-self: flex-start; }
+    .btn-submit:hover { background: var(--forest-mid); transform: translateY(-2px); }
+
+    /* FOOTER */
+    footer { background: var(--ink); color: rgba(255,255,255,0.5); padding: 4rem 4rem 2rem; }
+    .footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 3rem; padding-bottom: 3rem; border-bottom: 1px solid rgba(255,255,255,0.07); margin-bottom: 2rem; }
+    .footer-brand .nav-logo-img { height: 70px; width: auto; mix-blend-mode: lighten; filter: brightness(1.1) contrast(1.1); opacity: 1; }
+    .footer-brand .nav-logo-main { color: var(--white); font-size: 1.4rem; }
+    .footer-brand .nav-logo-sub { color: var(--gold); }
+    .footer-tagline { font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 0.98rem; color: rgba(255,255,255,0.35); margin-top: 1rem; line-height: 1.65; max-width: 280px; }
+    .footer-col h4 { font-size: 0.68rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--gold); margin-bottom: 1.2rem; font-weight: 600; }
+    .footer-col ul { list-style: none; display: flex; flex-direction: column; gap: 0.7rem; }
+    .footer-col ul a { color: rgba(255,255,255,0.45); text-decoration: none; font-size: 0.86rem; transition: color 0.2s; }
+    .footer-col ul a:hover { color: var(--gold); }
+    .footer-bottom { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; }
+    .footer-bottom p { font-size: 0.78rem; }
+    .footer-verse { font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 0.86rem; color: rgba(255,255,255,0.25); }
+
+    /* ANIMATIONS */
+    @keyframes fadeUp { from { opacity: 0; transform: translateY(22px); } to { opacity: 1; transform: translateY(0); } }
+    .fade-up { animation: fadeUp 0.8s ease both; }
+    .d1 { animation-delay: 0.1s; } .d2 { animation-delay: 0.25s; }
+    .d3 { animation-delay: 0.4s; } .d4 { animation-delay: 0.55s; } .d5 { animation-delay: 0.7s; }
+
+    /* RESPONSIVE */
+    @media (max-width: 960px) {
+      nav { padding: 1rem 1.8rem; }
+      .nav-links { display: none; }
+      .hamburger { display: flex; }
+      #home { grid-template-columns: 1fr; padding: 7rem 1.8rem 4rem; }
+      .hero-right { display: block; width: 100%; margin-top: 2rem; }
+      .hero-right .hero-campus-img { width: 100%; max-height: 280px; object-fit: cover; border-radius: 8px; }
+      .hero-right .hero-stats-card { display: none; }
+      #about, #vision, #programs, #land, #donate, #contact { padding: 4.5rem 1.8rem; }
+      .about-grid, .land-grid, .contact-grid { grid-template-columns: 1fr; gap: 2.5rem; }
+      .vision-pillars { grid-template-columns: 1fr; }
+      .programs-grid { grid-template-columns: 1fr 1fr; }
+      .form-row { grid-template-columns: 1fr; }
+      .footer-grid { grid-template-columns: 1fr; gap: 2rem; }
+      .footer-bottom { flex-direction: column; text-align: center; }
+    }
+    @media (max-width: 580px) {
+      .programs-grid { grid-template-columns: 1fr; }
+    }
+
+    /* TEAM */
+    #team { padding: 7rem 4rem; background: var(--white); }
+    .team-header { text-align: center; margin-bottom: 4rem; }
+    .team-header .section-desc { margin: 0 auto; }
+    .team-grid {
+      display: grid; grid-template-columns: repeat(3, 1fr);
+      gap: 2.5rem; max-width: 1100px; margin: 0 auto;
+    }
+    .team-card {
+      background: var(--cream); border-radius: 4px;
+      overflow: hidden;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+      transition: transform 0.25s, box-shadow 0.25s;
+      border-bottom: 3px solid var(--gold);
+    }
+    .team-card:hover { transform: translateY(-6px); box-shadow: 0 16px 40px rgba(0,0,0,0.1); }
+    .team-img-wrap { position: relative; overflow: hidden; height: 320px; }
+    .team-img-wrap img {
+      width: 100%; height: 100%; object-fit: cover; object-position: top;
+      display: block;
+      transition: transform 0.4s ease;
+    }
+    .team-card:hover .team-img-wrap img { transform: scale(1.04); }
+    .team-img-overlay {
+      position: absolute; bottom: 0; left: 0; right: 0;
+      height: 80px;
+      background: linear-gradient(to top, rgba(27,58,45,0.7), transparent);
+    }
+    .team-body { padding: 1.6rem; }
+    .team-name {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.45rem; font-weight: 700;
+      color: var(--forest); line-height: 1.2; margin-bottom: 0.3rem;
+    }
+    .team-title {
+      font-size: 0.72rem; font-weight: 600;
+      letter-spacing: 0.16em; text-transform: uppercase;
+      color: var(--gold); margin-bottom: 1rem;
+    }
+    .team-bio {
+      font-size: 0.88rem; color: var(--muted);
+      line-height: 1.75;
+    }
+    @media (max-width: 960px) {
+      #team { padding: 4.5rem 1.8rem; }
+      .team-grid { grid-template-columns: 1fr; max-width: 420px; }
+    }
+
+
+    /* FAQ */
+    #faq { padding: 7rem 4rem; background: var(--parchment); }
+    .faq-header { text-align: center; margin-bottom: 4rem; }
+    .faq-header .section-desc { margin: 0 auto; }
+    .faq-grid { max-width: 820px; margin: 0 auto; display: flex; flex-direction: column; gap: 1rem; }
+    .faq-item {
+      background: var(--white); border-radius: 3px;
+      border-left: 3px solid var(--gold);
+      box-shadow: 0 2px 10px rgba(0,0,0,0.04);
+      overflow: hidden;
+    }
+    .faq-question {
+      width: 100%; background: none; border: none;
+      padding: 1.4rem 1.6rem;
+      display: flex; justify-content: space-between; align-items: center;
+      cursor: pointer; text-align: left; gap: 1rem;
+      font-family: 'Jost', sans-serif;
+    }
+    .faq-question h4 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.15rem; font-weight: 600;
+      color: var(--forest); line-height: 1.3;
+    }
+    .faq-icon {
+      width: 28px; height: 28px; border-radius: 50%;
+      background: var(--forest-light);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.1rem; color: var(--forest);
+      flex-shrink: 0; transition: transform 0.3s, background 0.3s;
+      font-weight: 300;
+    }
+    .faq-item.open .faq-icon { transform: rotate(45deg); background: var(--gold); color: var(--white); }
+    .faq-answer {
+      max-height: 0; overflow: hidden;
+      transition: max-height 0.4s ease, padding 0.3s ease;
+      padding: 0 1.6rem;
+    }
+    .faq-answer p {
+      font-size: 0.93rem; color: var(--muted);
+      line-height: 1.8; padding-bottom: 1.4rem;
+    }
+    .faq-answer a { color: var(--forest); font-weight: 600; text-decoration: none; }
+    .faq-answer a:hover { color: var(--gold); }
+    .faq-item.open .faq-answer { max-height: 400px; }
+    @media (max-width: 960px) {
+      #faq { padding: 4.5rem 1.8rem; }
+    }
+
+
+    /* RESOURCES */
+    #resources { padding: 7rem 4rem; background: var(--white); }
+    .resources-header { text-align: center; margin-bottom: 4rem; }
+    .resources-header .section-desc { margin: 0 auto; }
+    .resources-grid {
+      display: grid; grid-template-columns: repeat(3, 1fr);
+      gap: 2rem; max-width: 1200px; margin: 0 auto;
+    }
+    .resource-card {
+      background: var(--cream); border-radius: 4px;
+      overflow: hidden; border-bottom: 3px solid var(--gold);
+      box-shadow: 0 4px 16px rgba(0,0,0,0.05);
+      transition: transform 0.25s, box-shadow 0.25s;
+      text-decoration: none; display: block;
+    }
+    .resource-card:hover { transform: translateY(-5px); box-shadow: 0 14px 32px rgba(0,0,0,0.1); }
+    .resource-card-media {
+      width: 100%; height: 500px;
+      background: var(--forest); display: flex;
+      align-items: center; justify-content: center;
+      overflow: hidden;
+    }
+    .resource-card-media img {
+      width: 100%; height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+    .resource-card-body { padding: 1.6rem; }
+    .resource-type {
+      font-size: 0.68rem; font-weight: 600;
+      letter-spacing: 0.18em; text-transform: uppercase;
+      color: var(--gold); margin-bottom: 0.5rem;
+    }
+    .resource-card-body h3 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.2rem; font-weight: 600;
+      color: var(--forest); line-height: 1.3; margin-bottom: 0.5rem;
+    }
+    .resource-card-body p { font-size: 0.86rem; color: var(--muted); line-height: 1.65; }
+    .resource-link {
+      display: inline-flex; align-items: center; gap: 0.4rem;
+      margin-top: 1rem; font-size: 0.85rem; font-weight: 600;
+      color: var(--teal); color: var(--forest); text-decoration: none;
+    }
+
+    /* NEWSLETTER */
+    #newsletter { padding: 5rem 4rem; background: var(--forest); }
+    .newsletter-inner {
+      max-width: 600px; margin: 0 auto; text-align: center;
+    }
+    #newsletter .section-eyebrow { justify-content: center; color: var(--gold); }
+    #newsletter .section-title { color: var(--white); }
+    #newsletter .section-desc { color: rgba(255,255,255,0.65); margin: 0 auto 2rem; text-align: center; }
+    .newsletter-form {
+      display: flex; gap: 0.8rem; flex-wrap: wrap; justify-content: center;
+    }
+    .newsletter-input {
+      flex: 1; min-width: 240px;
+      padding: 0.9rem 1.2rem; border-radius: 2px;
+      border: 1px solid rgba(255,255,255,0.2);
+      background: rgba(255,255,255,0.08);
+      color: var(--white); font-family: 'Jost', sans-serif;
+      font-size: 0.95rem; outline: none;
+      transition: border-color 0.2s;
+    }
+    .newsletter-input::placeholder { color: rgba(255,255,255,0.4); }
+    .newsletter-input:focus { border-color: var(--gold); }
+    .btn-newsletter {
+      background: var(--gold); color: var(--white);
+      padding: 0.9rem 2rem; border-radius: 2px;
+      font-family: 'Jost', sans-serif;
+      font-size: 0.88rem; font-weight: 600;
+      letter-spacing: 0.1em; text-transform: uppercase;
+      border: none; cursor: pointer;
+      transition: background 0.2s, transform 0.2s;
+      white-space: nowrap;
+    }
+    .btn-newsletter:hover { background: #b5841f; transform: translateY(-2px); }
+    @media (max-width: 960px) {
+      #resources { padding: 4.5rem 1.8rem; }
+      .resources-grid { grid-template-columns: 1fr; }
+      #newsletter { padding: 4rem 1.8rem; }
+    }
+
+  </style>
+  <script async src="https://widgets.givebutter.com/latest.umd.cjs?acct=pzr5Op&p=other"></script>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <a href="#home" class="nav-logo">
+      <div class="nav-logo-text">
+        <span class="nav-logo-main">True Vine Spellers Academy</span>
+        <span class="nav-logo-sub">Celina, TX · Est. 2026</span>
+      </div>
+    </a>
+    <ul class="nav-links">
+      <li class="nav-dropdown">
+        <a href="#about">About</a>
+        <ul class="dropdown-menu">
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#team">Our Team</a></li>
+        </ul>
+      </li>
+      <li><a href="#programs">Spellers Method</a></li>
+      <li><a href="#vision">Vision</a></li>
+      <li><a href="#land">Our Campus</a></li>
+      <li><a href="resources.html">Resources</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#donate" class="nav-cta">Give Now</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger"><span></span><span></span><span></span></div>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#team">Our Team</a>
+    <a href="#programs">Spellers Method</a>
+    <a href="#vision">Vision</a>
+    <a href="#land">Our Campus</a>
+    <a href="resources.html">Resources</a>
+    <a href="#faq">FAQ</a>
+    <a href="#contact">Contact</a>
+    <a href="#donate" class="mobile-cta">Give Now ♥</a>
+  </div>
+
+  <!-- HERO -->
+  <section id="home">
+    <div class="hero-bg-text">Vine</div>
+    <div class="hero-gold-bar"></div>
+
+    <div>
+      <img src="images/logo.jpeg" alt="True Vine Spellers Academy Logo" class="hero-logo-img"/>
+      <div class="hero-eyebrow fade-up d1">Celina, TX · Opening February 2027</div>
+      <h1 class="hero-title fade-up d2">
+        <em>Unlocking</em> the voices<br>
+        <strong>God gave every child.</strong>
+      </h1>
+      <p class="hero-verse fade-up d3">"Abide in me, and I in you." — John 15:4</p>
+      <div class="hero-btns fade-up d4">
+        <a href="#vision" class="btn-gold">Our Vision →</a>
+        <a href="https://givebutter.com/true-vine-spellers-academy-krhjgm" target="_blank" class="btn-outline">Support Our Mission</a>
+      </div>
+      <div class="hero-tags fade-up d5">
+        <div class="hero-tag"><div class="hero-tag-dot"></div>Faith-First Spellers Method</div>
+        <div class="hero-tag"><div class="hero-tag-dot"></div>Non-Speaking Students</div>
+        <div class="hero-tag"><div class="hero-tag-dot"></div>Grade-Level Academics via Spellers Method</div>
+      </div>
+    </div>
+
+    <div class="hero-right fade-up d3">
+      <div class="hero-img-wrap">
+        <img src="images/campus.jpeg" alt="True Vine Spellers Academy campus rendering" class="hero-campus-img"/>
+        <div class="hero-img-badge">
+          <span class="hero-img-badge-label">🏫 Campus Vision</span>
+          <span class="hero-img-badge-sub">Opening February 2027</span>
+        </div>
+      </div>
+      <div class="hero-card" style="max-width:460px;width:100%;margin-top:2rem;">
+        <div class="hero-stat-row">
+          <div>
+            <div class="hero-stat-num">14</div>
+            <div class="hero-stat-label">Acres Envisioned</div>
+          </div>
+          <div>
+            <div class="hero-stat-num">2027</div>
+            <div class="hero-stat-label">Opening Year</div>
+          </div>
+          <div>
+            <div class="hero-stat-num">$2.5M</div>
+            <div class="hero-stat-label">Land Goal</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="about-grid">
+      <div>
+        <div class="section-eyebrow">Who We Are</div>
+        <h2 class="section-title">Restoring dignity to the <em>overlooked.</em></h2>
+        <p class="section-desc">Based in Celina, TX, True Vine Spellers Academy bridges the gap between profound cognitive ability and the motor challenges that hide it. By presuming competence and delivering grade-level academics, we replace the low expectations of traditional special education with true restoration.</p>
+        <div class="about-pillars">
+          <div class="pillar">
+            <div class="pillar-icon">🎓</div>
+            <div>
+              <h4>Mission</h4>
+              <p>Unlocking the voices and God-given intellect of non-speaking students through presumed competence and academic equity.</p>
+            </div>
+          </div>
+          <div class="pillar">
+            <div class="pillar-icon">✝️</div>
+            <div>
+              <h4>Foundation</h4>
+              <p>Built on John 15:4, every student here knows they are a masterpiece of God — fully known, fully loved, fully capable.</p>
+            </div>
+          </div>
+          <div class="pillar">
+            <div class="pillar-icon">📅</div>
+            <div>
+              <h4>Launch</h4>
+              <p>Opening February 2027 in Celina, TX as a flagship model for faith-based Spellers Method education for non-speaking students.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="about-verse-block">
+          <blockquote>"Abide in me, and I in you. As the branch cannot bear fruit by itself, unless it abides in the vine, neither can you, unless you abide in me."</blockquote>
+          <cite>— John 15:4 · The foundation of everything we do</cite>
+        </div>
+        <div class="about-launch">
+          <div class="about-launch-label">📍 Location</div>
+          <h4>North Texas — DFW Region</h4>
+          <p>Serving families across Celina, TX and the greater DFW area with a campus designed from the ground up for the sensory, academic, and spiritual needs of our students.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VISION -->
+  <section id="vision">
+    <div class="vision-inner">
+      <div class="section-eyebrow">Our Vision</div>
+      <h2 class="section-title" style="color:var(--white);">We exist to prove that <em>speech does not define intelligence.</em></h2>
+      <p class="vision-statement">We are building a school where communication is unlocked, not assumed absent. A place where every child is seen as the masterpiece they were created to be.</p>
+      <div class="vision-pillars">
+        <div class="vision-pillar">
+          <div class="vision-pillar-num">01</div>
+          <h4>Academic Equity</h4>
+          <p>Using the Spellers Method, we deliver grade-level curriculum for students previously stuck in "life-skills" loops. Every child deserves real education with real expectations.</p>
+        </div>
+        <div class="vision-pillar">
+          <div class="vision-pillar-num">02</div>
+          <h4>Faith-First Identity</h4>
+          <p>A foundation where every student knows they are a masterpiece of God — seen, known, and filled with divine purpose.</p>
+        </div>
+        <div class="vision-pillar">
+          <div class="vision-pillar-num">03</div>
+          <h4>Clinical Integration</h4>
+          <p>Merging Spellers Method instruction with whole-child therapeutic support — addressing the full person, not just the academic profile.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROGRAMS -->
+  <section id="programs">
+    <div class="programs-header">
+      <div class="section-eyebrow">Our Model</div>
+      <h2 class="section-title">The Spellers Method: <em>Whole child. Whole potential.</em></h2>
+      <p class="section-desc">Our integrated program is rooted in the <strong>Spellers Method</strong> — addressing every dimension of development: motor, academic, spiritual, and therapeutic.</p>
+    </div>
+    <div class="programs-grid">
+      <div class="program-card"><div class="program-icon">🧠</div><h3>Intentional Motor Development</h3><p>Targeted exercises that build the motor pathways necessary for communication and independence.</p></div>
+      <div class="program-card"><div class="program-icon">👁️</div><h3>Ocular Motor Strengthening</h3><p>Specialized visual therapy to develop the eye tracking and focus needed for reading and learning.</p></div>
+      <div class="program-card"><div class="program-icon">🏃</div><h3>Purposeful Movement Training</h3><p>Movement-based learning that harnesses the connection between body and brain for academic growth.</p></div>
+      <div class="program-card"><div class="program-icon">🎵</div><h3>Neurological Music Therapy</h3><p>Evidence-based music therapy that activates neurological pathways for communication and regulation.</p></div>
+      <div class="program-card"><div class="program-icon">🌊</div><h3>Aquatic Therapy</h3><p>Water-based therapeutic sessions that support sensory integration, motor development, and joy.</p></div>
+      <div class="program-card"><div class="program-icon">✍️</div><h3>Writing Development</h3><p>Every student will write. Through the Spellers Method, we unlock written expression and give every learner a voice on the page.</p></div>
+      <div class="program-card"><div class="program-icon">✝️</div><h3>Christian Bible Study</h3><p>Faith-rooted discipleship woven into every school day — identity in Christ is foundational to everything.</p></div>
+      <div class="program-card"><div class="program-icon">📖</div><h3>Grade-Level Academics</h3><p>Rooted in the Spellers Method, we deliver real curriculum with real expectations — presuming competence and replacing life-skills ceilings with academic freedom.</p></div>
+      <div class="program-card"><div class="program-icon">👨‍👩‍👧</div><h3>Family Partnership</h3><p>Families are co-educators. We equip parents with tools, training, and community to continue the work at home.</p></div>
+    </div>
+  </section>
+
+  <!-- LAND -->
+  <section id="land">
+    <div class="land-grid">
+      <div class="land-visual">
+        <div class="land-visual-label">Our Permanent Home</div>
+        <h3>A sanctuary in the making.</h3>
+        <p>We are identifying a 14-acre flagship site in Celina, TX — a nature-integrated campus designed specifically for the sensory and academic needs of our Spellers Method students.</p>
+        <div class="land-amount">$2.5M <span>land acquisition goal</span></div>
+        <div class="land-progress">
+          <div class="land-progress-labels"><span>Campaign in progress</span><span>Phase 1 of 3</span></div>
+          <div class="land-bar"><div class="land-bar-fill"></div></div>
+        </div>
+      </div>
+      <div>
+        <div class="section-eyebrow">14-Acre Vision</div>
+        <h2 class="section-title">The search for our <em>permanent home.</em></h2>
+        <p class="section-desc">To fully realize our mission, True Vine Spellers Academy is identifying a 14-acre flagship site in Celina, TX — the first step in building a world-class, nature-integrated campus.</p>
+        <div class="land-features" style="margin-top:2rem;">
+          <div class="land-feature"><div class="land-feature-icon">🌿</div><div><h4>Nature-Integrated Design</h4><p>Outdoor learning environments that engage the senses and support whole-child development.</p></div></div>
+          <div class="land-feature"><div class="land-feature-icon">🏫</div><div><h4>Purpose-Built Classrooms</h4><p>Sensory-informed spaces designed from the ground up for non-speaking students.</p></div></div>
+          <div class="land-feature"><div class="land-feature-icon">🌊</div><div><h4>Therapeutic Facilities</h4><p>On-site aquatic therapy, movement studios, and clinical integration spaces.</p></div></div>
+          <div class="land-feature"><div class="land-feature-icon">✝️</div><div><h4>Faith Community Space</h4><p>A chapel and gathering space where students, families, and staff worship together.</p></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- TEAM -->
+  <section id="team">
+    <div class="team-header">
+      <div class="section-eyebrow">The People Behind the Mission</div>
+      <h2 class="section-title">Meet our <em>founders.</em></h2>
+      <p class="section-desc">Three mothers. One mission — that every nonspeaking child is given a voice.</p>
+    </div>
+    <div class="team-grid">
+
+      <div class="team-card">
+        <div class="team-img-wrap">
+          <img src="images/kristina.png" alt="Kristina Inzerillo" />
+          <div class="team-img-overlay"></div>
+        </div>
+        <div class="team-body">
+          <div class="team-name">Kristina Inzerillo</div>
+          <div class="team-title">Co-Founder</div>
+          <p class="team-bio">Kristina is a proud mother of three, holding a Master's in Business Administration, with over 15 years in fundraising and organizational development. Currently pursuing CP training, she is passionate about instilling strong communication skills in her 8-year-old son, empowering him to shine brightly as a reflection of God's love. Faith fuels her personal and professional journey.</p>
+        </div>
+      </div>
+
+      <div class="team-card">
+        <div class="team-img-wrap">
+          <img src="images/gail.jpeg" alt="Gail Ulloa" />
+          <div class="team-img-overlay"></div>
+        </div>
+        <div class="team-body">
+          <div class="team-name">Gail Ulloa</div>
+          <div class="team-title">Co-Founder</div>
+          <p class="team-bio">Gail brings over 16 years of experience in educational administration and holds a Bachelor's degree in Business Administration. As the proud mother of three — including a nonspeaking autistic son — she is deeply passionate about advocating for nonspeaking students and ensuring every child has a voice.</p>
+        </div>
+      </div>
+
+      <div class="team-card">
+        <div class="team-img-wrap">
+          <img src="images/sunny.jpeg" alt="Sunny Talbert" />
+          <div class="team-img-overlay"></div>
+        </div>
+        <div class="team-body">
+          <div class="team-name">Sunny Talbert</div>
+          <div class="team-title">Co-Founder</div>
+          <p class="team-bio">Sunny is currently pursuing her Spellers Practitioner certification to support nonspeaking individuals. As a mother of two — including a nonspeaking son — her personal journey has deeply shaped her passion for advocacy and meaningful communication for every child.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- DONATE -->
+  <section id="donate">
+    <div class="donate-inner">
+      <div class="section-eyebrow">Give</div>
+      <h2 class="section-title" style="color:var(--forest);">Partner with us to <em>unlock every voice.</em></h2>
+      <p class="section-desc">Your generosity funds Spellers Method programs, campus development, and the belief that every non-speaking child deserves a world-class faith-based education.</p>
+      <div class="givebutter-wrap">
+        <iframe
+  src="https://givebutter.com/embed/campaign/true-vine-spellers-academy-krhjgm"
+  width="100%"
+  height="700px"
+  style="border:none; border-radius:8px;"
+  allow="payment"
+  loading="lazy">
+</iframe>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- NEWSLETTER -->
+  <section id="newsletter">
+    <div class="newsletter-inner">
+      <div class="section-eyebrow">Stay Connected</div>
+      <h2 class="section-title" style="color:var(--white);">Join our <em>newsletter.</em></h2>
+      <p class="section-desc">Sign up with your email address to receive news and updates.</p>
+      <form class="newsletter-form" action="https://formspree.io/f/mgonynjk" method="POST">
+        <input type="hidden" name="_subject" value="New Newsletter Signup — True Vine Spellers Academy"/>
+        <input type="hidden" name="type" value="Newsletter Signup"/>
+        <input class="newsletter-input" type="email" name="email" placeholder="Enter your email address" required/>
+        <button type="submit" class="btn-newsletter">Subscribe →</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq">
+    <div class="faq-header">
+      <div class="section-eyebrow">Got Questions?</div>
+      <h2 class="section-title">Frequently Asked <em>Questions</em></h2>
+      <p class="section-desc">Everything you need to know about True Vine Spellers Academy, the Spellers Method, and how to get involved.</p>
+    </div>
+    <div class="faq-grid">
+
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFaq(this)">
+          <h4>What is the Spellers Method?</h4>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <p>The Spellers Method is an evidence-based approach to communication that presumes competence in nonspeaking individuals. Rather than assuming limited intelligence due to the inability to speak, the Spellers Method teaches students to communicate by spelling out words and sentences — unlocking the voices and intellect that have always been present. It is grounded in the understanding that motor challenges, not cognitive limitations, are what prevent many nonspeaking individuals from communicating.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFaq(this)">
+          <h4>Who is True Vine Spellers Academy for?</h4>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <p>True Vine Spellers Academy is designed for nonspeaking and minimally speaking students who have historically been placed in "life-skills" programs rather than given access to grade-level academic instruction. We serve students with autism, motor differences, and other conditions that affect verbal communication — students whose intelligence has been underestimated or overlooked by traditional special education systems.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFaq(this)">
+          <h4>When and where will the school open?</h4>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <p>True Vine Spellers Academy is set to open in <strong>February 2027</strong> in <strong>Celina, TX</strong> — located in the greater DFW area of North Texas. We are currently in the process of identifying our permanent 14-acre campus, which will be a nature-integrated facility purpose-built for the sensory and academic needs of our students. Stay connected via our Facebook page for updates on our campus search and launch timeline.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFaq(this)">
+          <h4>How do I enroll my child?</h4>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <p>We are currently preparing for our February 2027 opening and will be accepting enrollment inquiries soon. To set every student up for success, we ask that families commit to at least 6 months of spelling practice prior to enrollment. These sessions will be conducted with our in-house Spellers Method therapist, ensuring every student builds a strong foundation and is fully prepared to thrive in our academic environment from day one. If you have a child you believe would benefit, we encourage you to reach out now to get on our interest list. Contact us at <a href="/cdn-cgi/l/email-protection#82ebece4edc2f6f0f7e7f4ebece7f1f2e7eeeee7f0f1ace1edef"><span class="__cf_email__" data-cfemail="10797e767f506462657566797e756360757c7c7562633e737f7d">[email&#160;protected]</span></a> or call <a href="tel:2142335366">214-233-5366</a> to get on our interest list.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFaq(this)">
+          <h4>Is True Vine Spellers Academy a faith-based school?</h4>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <p>Yes. True Vine Spellers Academy is built on a Christian foundation, rooted in John 15:4. We believe every child is a masterpiece of God, created with purpose and dignity. Our curriculum integrates Christian Bible study and discipleship alongside academics and therapy. That said, our doors are open to all families who believe in the potential of their nonspeaking child — regardless of background.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFaq(this)">
+          <h4>What therapies and programs are offered?</h4>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <p>Our whole-child model integrates a wide range of therapeutic and academic supports, including: intentional motor development, ocular motor strengthening, purposeful movement training, neurological music therapy, aquatic therapy, writing development, Christian Bible study, grade-level academics via the Spellers Method, and family partnership programming. Every element is designed to address the full child — body, mind, and spirit.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFaq(this)">
+          <h4>Is tuition free? How is the school funded?</h4>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <p>True Vine Spellers Academy is a nonprofit organization and we are committed to making our programs as accessible as possible to the families who need them most. We are actively fundraising through donations, grants, and community partnerships to reduce financial barriers. For specific tuition and funding questions as we approach our 2027 opening, please contact us at <a href="/cdn-cgi/l/email-protection#bed7d0d8d1fecacccbdbc8d7d0dbcdcedbd2d2dbcccd90ddd1d3"><span class="__cf_email__" data-cfemail="563f3830391622242333203f38332526333a3a3324257835393b">[email&#160;protected]</span></a>.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFaq(this)">
+          <h4>How can I donate or support the mission?</h4>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <p>Every dollar makes a direct difference. You can donate through our <a href="https://givebutter.com/true-vine-spellers-academy-krhjgm" target="_blank">Givebutter donation page</a> on this site, which funds our programs, staff training, and our $2.5M land acquisition campaign to secure our permanent 14-acre campus in Celina, TX. You can also support us by volunteering, spreading the word, or following our journey on <a href="https://facebook.com/truevinespellersacademy" target="_blank">Facebook</a>.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFaq(this)">
+          <h4>How is this different from traditional special education?</h4>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <p>Traditional special education often places nonspeaking students in "life-skills" programs that assume limited cognitive ability based on the inability to speak. True Vine Spellers Academy takes the opposite approach — we presume full competence and deliver grade-level academics using the Spellers Method. We believe the barrier is motor, not intellectual, and we build our entire program around unlocking what is already there.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFaq(this)">
+          <h4>Does True Vine Spellers Academy accept insurance?</h4>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <p>Currently, True Vine Spellers Academy does not accept insurance. We are committed to exploring all possible funding options to make our programs as accessible as possible, and we encourage families to reach out to discuss financial support opportunities. Contact us at <a href="/cdn-cgi/l/email-protection#442d2a222b0430363121322d2a2137342128282136376a272b29"><span class="__cf_email__" data-cfemail="60090e060f201412150516090e051310050c0c0512134e030f0d">[email&#160;protected]</span></a> or call <a href="tel:2142335366">214-233-5366</a>.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFaq(this)">
+          <h4>Does True Vine Spellers Academy follow the traditional school calendar?</h4>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <p>True Vine Spellers Academy will operate on a year-round school calendar. We believe consistent, uninterrupted learning is key to the progress and growth of our students.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="contact-grid">
+      <div>
+        <div class="section-eyebrow">Get In Touch</div>
+        <h2 class="section-title">Let's <em>connect.</em></h2>
+        <p class="section-desc">Whether you're a family seeking enrollment information, a potential partner, or someone who feels called to support our mission — we want to hear from you.</p>
+        <div class="contact-details">
+          <div class="contact-item">
+            <div class="contact-item-icon">📞</div>
+            <div>
+              <div class="contact-item-label">Phone</div>
+              <div class="contact-item-value"><a href="tel:2142335366">214-233-5366</a></div>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-item-icon">✉️</div>
+            <div>
+              <div class="contact-item-label">Email</div>
+              <div class="contact-item-value"><a href="/cdn-cgi/l/email-protection#cda4a3aba28db9bfb8a8bba4a3a8bebda8a1a1a8bfbee3aea2a0"><span class="__cf_email__" data-cfemail="b3daddd5dcf3c7c1c6d6c5daddd6c0c3d6dfdfd6c1c09dd0dcde">[email&#160;protected]</span></a></div>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-item-icon">📍</div>
+            <div>
+              <div class="contact-item-label">Location</div>
+              <div class="contact-item-value">Celina, TX (DFW Region)</div>
+            </div>
+          </div>
+        </div>
+        <div class="social-follow">
+          <h4>Follow Our Journey</h4>
+          <a href="https://facebook.com/truevinespellersacademy" target="_blank" class="social-link facebook">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+            Facebook
+          </a>
+          <a href="https://www.instagram.com/truevinespellersacademy" target="_blank" class="social-link instagram">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+            Instagram
+          </a>
+        </div>
+      </div>
+      <form class="contact-form" id="contactForm" action="https://formspree.io/f/mgonynjk" method="POST">
+        <input type="hidden" name="_replyto" value="info@truevinespellers.com"/>
+        <input type="hidden" name="_subject" value="New Message from True Vine Spellers Academy Website"/>
+        <input type="hidden" name="_next" value="https://truevinespellers.com/?submitted=true"/>
+        <div class="form-row">
+          <div class="form-group"><label>First Name</label><input type="text" name="first_name" placeholder="Your first name"/></div>
+          <div class="form-group"><label>Last Name</label><input type="text" name="last_name" placeholder="Your last name"/></div>
+        </div>
+        <div class="form-group"><label>Email</label><input type="email" name="email" placeholder="you@example.com"/></div>
+        <div class="form-group">
+          <label>I am a…</label>
+          <select name="inquiry_type">
+            <option>Parent / Guardian</option>
+            <option>Educator / Therapist</option>
+            <option>Potential Donor</option>
+            <option>Community Partner</option>
+            <option>Volunteer</option>
+            <option>Media / Press</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div class="form-group"><label>Message</label><textarea name="message" placeholder="Tell us about your child, how you'd like to support our mission, or any questions you have..."></textarea></div>
+        <button type="submit" class="btn-submit">Send Message →</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="nav-logo">
+          <img src="images/logo.jpeg" alt="True Vine Spellers Academy Logo" class="nav-logo-img"/>
+          <div class="nav-logo-text">
+            <span class="nav-logo-main">True Vine Spellers Academy</span>
+            <span class="nav-logo-sub">Celina, TX · Est. 2026</span>
+          </div>
+        </div>
+        <p class="footer-tagline">"Unlocking the voices and God-given intellect of non-speaking students."</p>
+      </div>
+      <div class="footer-col">
+        <h4>Navigate</h4>
+        <ul>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#vision">Our Vision</a></li>
+          <li><a href="#programs">Spellers Method</a></li>
+          <li><a href="#land">Our Campus</a></li>
+      <li><a href="#team">Our Team</a></li>
+          <li><a href="resources.html">Resources</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Get Involved</h4>
+        <ul>
+          <li><a href="https://givebutter.com/true-vine-spellers-academy-krhjgm" target="_blank">Donate</a></li>
+          <li><a href="#contact">Volunteer</a></li>
+          <li>
+            <a href="https://facebook.com/truevinespellersacademy" target="_blank" class="social-link facebook" style="display:inline-flex;align-items:center;gap:0.5rem;padding:0.5rem 1rem;border-radius:6px;background:#1877F2;color:#fff;text-decoration:none;font-size:0.82rem;font-weight:600;margin-top:0.3rem;">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="white"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+              Facebook
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/truevinespellersacademy" target="_blank" class="social-link instagram" style="display:inline-flex;align-items:center;gap:0.5rem;padding:0.5rem 1rem;border-radius:6px;background:linear-gradient(45deg,#f09433,#e6683c,#dc2743,#cc2366,#bc1888);color:#fff;text-decoration:none;font-size:0.82rem;font-weight:600;margin-top:0.3rem;">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="white"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+              Instagram
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 True Vine Spellers Academy. All rights reserved. 501(c)(3) Nonprofit Organization.</p>
+      <p class="footer-verse">"Abide in me, and I in you." — John 15:4</p>
+    </div>
+  </footer>
+
+  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+    // FAQ - must be global for onclick to work
+    function toggleFaq(btn) {
+      var item = btn.closest('.faq-item');
+      var isOpen = item.classList.contains('open');
+      document.querySelectorAll('.faq-item.open').forEach(function(el) { el.classList.remove('open'); });
+      if (!isOpen) item.classList.add('open');
+    }
+
+    // Mobile hamburger menu
+    document.addEventListener('DOMContentLoaded', function() {
+      var hamburger = document.getElementById('hamburger');
+      var mobileMenu = document.getElementById('mobileMenu');
+      if (!hamburger || !mobileMenu) return;
+
+      hamburger.addEventListener('click', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        var isOpen = mobileMenu.classList.contains('active');
+        hamburger.classList.toggle('active');
+        mobileMenu.classList.toggle('active');
+        document.body.style.overflow = isOpen ? '' : 'hidden';
+      });
+
+      mobileMenu.querySelectorAll('a').forEach(function(link) {
+        link.addEventListener('click', function() {
+          hamburger.classList.remove('active');
+          mobileMenu.classList.remove('active');
+          document.body.style.overflow = '';
+        });
+      });
+    });
+
+    // Clear contact form if returning from Formspree submission
+    window.addEventListener('load', function() {
+      if (window.location.search.includes('submitted=true')) {
+        const form = document.getElementById('contactForm');
+        if (form) { form.reset(); }
+        window.history.replaceState({}, document.title, window.location.pathname);
+      }
+    });
+
+  </script>
+
+</body>
+</html>
