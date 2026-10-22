@@ -243,7 +243,7 @@
       margin-top: 1rem;
     }
 
-    .practitioner-card {
+    .-card {
       display: flex;
       align-items: center;
       gap: 1.6rem;
@@ -254,7 +254,7 @@
       padding: 1.8rem 2rem;
       margin-bottom: 2rem;
     }
-    .practitioner-card img {
+    .-card img {
       width: 88px;
       height: 88px;
       border-radius: 50%;
@@ -262,23 +262,23 @@
       flex-shrink: 0;
       border: 3px solid var(--gold-light);
     }
-    .practitioner-card .practitioner-eyebrow {
+    .-card .-eyebrow {
       font-size: 0.68rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase;
       color: var(--gold); margin-bottom: 0.3rem;
     }
-    .practitioner-card h3 {
+    .-card h3 {
       font-family: 'Cormorant Garamond', serif;
       font-size: 1.35rem;
       color: var(--forest);
       margin-bottom: 0.3rem;
     }
-    .practitioner-card p {
+    .-card p {
       font-size: 0.88rem;
       color: var(--muted);
       line-height: 1.55;
     }
     @media (max-width: 500px) {
-      .practitioner-card { flex-direction: column; text-align: center; }
+      .-card { flex-direction: column; text-align: center; }
     }
 
     #intake-success {
@@ -353,16 +353,16 @@
   <div class="intake-page-hero">
     <div class="section-eyebrow">Begin The Journey</div>
     <h1>Speller Intake Form</h1>
-    <p>Thank you for taking this step with us. The information below helps Sunny, your practitioner, understand your child's strengths, history, and goals so she can support them well from day one.</p>
+    <p>Thank you for taking this step with us. The information below helps Sunny, your provider, understand your child's strengths, history, and goals so she can support them well from day one.</p>
   </div>
 
   <!-- FORM BODY -->
   <div class="intake-page-body">
 
     <div class="practitioner-card">
-      <img src="images/sunny.jpeg" alt="Sunny, True Vine Mission Practitioner"/>
+      <img src="images/sunny.jpeg" alt="Sunny, True Vine Mission Provider"/>
       <div>
-        <div class="practitioner-eyebrow">Meet Your Practitioner</div>
+        <div class="practitioner-eyebrow">Meet Your Provider</div>
         <h3>Sunny</h3>
         <p>Sunny will be reviewing your responses and working directly with your family to get started. Feel free to share anything that will help her get to know your child.</p>
       </div>
@@ -557,7 +557,7 @@
       <div class="intake-section">
         <h2>🖊️ Consent & Signature</h2>
         <div class="consent-box">
-          I authorize True Vine Mission to collect and retain the health and medical information provided on this intake form, including but not limited to seizure history, current medications, and relevant diagnoses. This information will be used solely to ensure the safety and appropriateness of services provided. It will be kept confidential, shared only with staff and practitioners directly involved in my child's care, and will not be disclosed to third parties without my written consent except as required by law. I understand that providing this information is voluntary, but that certain details may be necessary to participate safely in the Spellers Method program through True Vine Mission.
+          I authorize True Vine Mission to collect and retain the health and medical information provided on this intake form, including but not limited to seizure history, current medications, and relevant diagnoses. This information will be used solely to ensure the safety and appropriateness of services provided. It will be kept confidential, shared only with staff and providers directly involved in my child's care, and will not be disclosed to third parties without my written consent except as required by law. I understand that providing this information is voluntary, but that certain details may be necessary to participate safely in the Spellers Method program through True Vine Mission.
         </div>
         <label class="consent-check">
           <input type="checkbox" name="consent_agreement" value="Agreed" required/>
@@ -570,7 +570,7 @@
       </div>
 
       <button type="submit" class="btn-submit">Submit Intake Form</button>
-      <p class="form-note">Your responses are kept confidential and shared only with staff and practitioners directly involved in your child's care.</p>
+      <p class="form-note">Your responses are kept confidential and shared only with staff and providers directly involved in your child's care.</p>
     </form>
 
     <div id="intake-success">
